@@ -16,7 +16,7 @@ form.addEventListener('submit', (event) => {
   document.getElementById('infos').classList.remove('hidden');
 
   if (bmi < 18.5) {
-    description = 'Abaixo do peso';
+    description = 'Abaixo do peso!';
   } else if (bmi >= 18.5 && bmi <= 24.9) {
     description = 'Peso normal';
     value.classList.remove('attention');
